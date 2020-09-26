@@ -5,7 +5,6 @@ metadata:
   # This namespace is special and auto-wired to deploy to the local cluster
   namespace: fleet-local
 spec:
-  # Everything from this repo will be ran in this cluster. You trust me right?
   repo: "https://github.com/joshrwolf/fleet-playground.git"
   paths:
   - apps/gitlab
