@@ -1,4 +1,1 @@
 namespace: istio-operator
-
-kustomize:
-  dir: ""

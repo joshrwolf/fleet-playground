@@ -1,4 +1,0 @@
-namespace: istio-operator
-
-resources:
-  - operator.yaml
