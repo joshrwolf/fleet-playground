@@ -8,4 +8,4 @@ spec:
   repo: "https://github.com/joshrwolf/fleet-playground.git"
   paths:
   - apps/istio/operator
-  - apps/istio/controlplane
+  # - apps/istio/controlplane
