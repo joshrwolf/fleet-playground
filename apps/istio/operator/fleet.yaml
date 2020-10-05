@@ -1,1 +1,10 @@
 namespace: istio-operator
+
+helm:
+  releaseName: istio-operator
+
+  values:
+    hub: docker.io/istio
+    tag: 1.7.3
+    operatorNamespace: istio-operator
+    watchedNamespaces: istio-system
